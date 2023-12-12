@@ -1,0 +1,148 @@
+.header {
+  width: 100%;
+}
+
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: auto;
+  background-image: url(../images/sincerely-media-0LbCzHSueys-unsplash.jpg);
+  background-position: 0 -50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  background-position-y: 53%;
+}
+
+.accueil-introduction h1 {
+  margin-bottom: 15px;
+}
+
+.accueil-introduction p {
+  margin-bottom: 30px;
+  color: black;
+}
+
+.text-livraison{
+  text-align: center;
+  text-decoration: underline;
+  width: 125px;
+  height: 50px;
+  font-family: 'poppins';
+  font-size: 20px;
+  margin-top: -100px;
+  margin-left: 50px;
+}
+
+.quote {
+  width: 250px;
+  font-family: 'monsterrat';
+  font-size: 25px;
+  margin-top: 115px;
+}
+
+
+
+.section-contact h2 {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: auto;
+  color: white;
+}
+
+.form-nom-email {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: none;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+  color: black;
+}
+
+@media screen and (max-width: 996px) {
+  .accueil-introduction {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .accueil-introduction div {
+    padding-right: 0;
+    text-align: center;
+    order: 2;
+  }
+
+  .accueil-introduction img {
+    order: 1;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .accueil-photos {
+    padding: 20px;
+  }
+
+  .accueil-photos div {
+    flex-direction: column;
+  }
+
+  .section-contact {
+    padding: 50px 20px;
+  }
+
+  .form-nom-email {
+    flex-direction: column;
+    gap: 0;
+  }
+}

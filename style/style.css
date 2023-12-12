@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+}
+
+
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important; /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important; /* 3 */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  background-color: #F2D0CF;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: white;
+  text-shadow: #F2D0CF;
+  text-decoration-color: #F2D0CF;
+  font-family: 'Montserrat', sans-serif;
+  text-align: right;
+}
+
+h2 {
+  color: white;
+}
+
+p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
+}
+
+header,
+footer {
+  background-color: white;
+  padding: 20px 50px;
+}
+
+.div-cta{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.cta {
+  display: inline-block;
+  background-color: #F2D0CF;
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-family: 'montserrat';
+  font-weight: bold;
+}
+
+.cta2 {
+  display: inline-block;
+  background-color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-family: 'montserrat';
+  font-weight: bold;
+}
+
+.cta2:hover {
+  transform: scale(1.15);
+  transition: ease-in-out 200ms;
+  text-decoration: none;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+  color: #F2D0CF;
+}
+
+.cta:hover {
+  transform: scale(1.15);
+  transition: ease-in-out 200ms;
+  text-decoration: none;
+}
+
+.text-savonnerie p{
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 18px;
+}
+
+.accueil-description {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text-savonnerie {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  gap: 25px;
+}
+.fa-solid {
+  font-size: 90px;
+  color: #F2D0CF;
+}
+
+.text-valeurs p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 18px;
+}
+
+.text-valeurs {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+
+.lien-icone {
+  margin-left: 30px;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+section {
+  padding: 80px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer p {
+  color: black;
+}
+
+@media screen and (max-width: 996px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav img {
+    margin-bottom: 20px;
+  }
+
+  header,
+  footer {
+    padding: 20px 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  section {
+    padding: 50px 20px 50px 20px;
+  }
+
+  nav a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
