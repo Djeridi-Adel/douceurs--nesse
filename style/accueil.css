@@ -145,4 +145,8 @@ input[type='submit'] {
     flex-direction: column;
     gap: 0;
   }
+
+  .quote p {
+    font-size: 15px;
+  }
 }

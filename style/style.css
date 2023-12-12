@@ -196,6 +196,23 @@ footer p {
   h1 {
     font-size: 2em;
   }
+  p.text-livraison {
+  font-size: 15px;
+  }
+  p.quote {
+    font-size: 18px;
+  }
+
+  .text-savonnerie p {
+    font-size: 15px;
+  }
+
+  .text-valeurs p {
+    font-size: 15px;
+  }
+  .fa-solid {
+    font-size: 60px;
+  }
 
   section {
     padding: 50px 20px 50px 20px;
@@ -204,5 +221,44 @@ footer p {
   nav a {
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .accueil-description {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .text-savonnerie {
+    width: 100%;
+  }
+  .text-valeurs {
+    width: 100%;
+  }
+  .div-cta {
+    justify-content: center;
+  }
+  a.cta {
+    font-size: 14px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  p.quote {
+    width: 100%;
+  }
+  p.text-livraison {
+    display: none;
+  }
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  header nav {
+    text-align: center;
   }
 }
